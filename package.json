@@ -1,0 +1,20 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "make": "node src/index.js",
+    "make:general-frontend": "node src/index.js special/general-frontend.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "convert-html-to-pdf": "^1.0.1",
+    "puppeteer": "^24.4.0"
+  },
+  "devDependencies": {
+    "sass": "^1.86.0"
+  }
+}
