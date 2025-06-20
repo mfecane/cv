@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "make": "node src/index.js",
+    "build": "node src/index.js",
     "make:general-frontend": "node src/index.js special/general-frontend.html"
   },
   "keywords": [],
